@@ -1,3 +1,5 @@
+# DOM Times Table
+Create a web page that generates a times table.
 
 
 ## Licensing
