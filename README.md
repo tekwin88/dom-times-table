@@ -8,11 +8,35 @@ the button to generate the table.
 The top row and left column should be the numbers 0-N where `N` is the number
 input by the user. Do not generate a new table for numbers less than one.
 
-Use for loops, functions and parameters to reduce redundant behavior like
-creating rows.
+- Remove the previous table from the page every time you generate a new one.
+- Set the table `border` property to one before it's added to the page so each
+  cell is shown correctly.
+- Use for loops, functions and parameters to reduce redundant behavior like
+  creating rows.
 
 There is no HTML, CSS or JavaScript provided as a starting point for this
 project.
+
+![times table](screenshots/times-table.png)
+
+## Bonus: Color Cells
+
+Make it easier to look up cells by zebra-striping the table.  Make every other
+row gray.
+
+
+Checker-board the entire table by making every other table division a slightly
+different gray color.
+
+Two sample background colors:
+
+```
+background-color: #ddd;
+background-color: #eee;
+```
+
+![zebra-striped table](screenshots/zebra-striped.png)
+![checker-board table](screenshots/checker-board.png)
 
 ## Times Tables (Multiplication Tables)
 Here's a times table for the number three:
